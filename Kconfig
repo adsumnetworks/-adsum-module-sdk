@@ -95,7 +95,7 @@ config ADSUM_OP_PERF_UPDATE_MSG_ID
 
 config ADSUM_PERF_SRV_MODEL_PUB_PERIOD_10S_MULTIPLIER 
 	int "Adsum performance server model message Publication period (10 seconds multiplier)"
-	default 5
+	default 7
 	help
         Set the 10 seconds multiplier of Adsum performance message Publication period, 
 		which means that the period equals the given value multiplied by 10.
